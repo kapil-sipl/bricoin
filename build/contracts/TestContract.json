@@ -1,0 +1,205 @@
+{
+  "contractName": "TestContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b600160008190555060358060236000396000f3006060604052600080fd00a165627a7a723058205fa95e1164abcbe3707431b9ecb95288467a5db82cccb23b2281dd6a25728d750029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058205fa95e1164abcbe3707431b9ecb95288467a5db82cccb23b2281dd6a25728d750029",
+  "sourceMap": "26:99:4:-;;;69:53;;;;;;;;115:1;108:4;:8;;;;26:99;;;;;;",
+  "deployedSourceMap": "26:99:4:-;;;;;",
+  "source": "pragma solidity ^0.4.17;\n\ncontract TestContract {\n\n   uint test;\n\n   function TestContract() public {\n      test = 1;\n   }\n\n}\n",
+  "sourcePath": "/Users/kapilchhabra/Desktop/BRICoin/kpls/foodlinc/contracts/TestContract.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/kapilchhabra/Desktop/BRICoin/kpls/foodlinc/contracts/TestContract.sol",
+      "exportedSymbols": {
+        "TestContract": [
+          452
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 441,
+        "name": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            452
+          ],
+          "name": "TestContract",
+          "scope": 453
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "test",
+              "scope": 452,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 442,
+                "name": "ElementaryTypeName",
+                "src": "54:4:4"
+              }
+            ],
+            "id": 443,
+            "name": "VariableDeclaration",
+            "src": "54:9:4"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "TestContract",
+              "payable": false,
+              "scope": 452,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 444,
+                "name": "ParameterList",
+                "src": "90:2:4"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 445,
+                "name": "ParameterList",
+                "src": "100:0:4"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 443,
+                              "type": "uint256",
+                              "value": "test"
+                            },
+                            "id": 446,
+                            "name": "Identifier",
+                            "src": "108:4:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "31",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "number",
+                              "type": "int_const 1",
+                              "value": "1"
+                            },
+                            "id": 447,
+                            "name": "Literal",
+                            "src": "115:1:4"
+                          }
+                        ],
+                        "id": 448,
+                        "name": "Assignment",
+                        "src": "108:8:4"
+                      }
+                    ],
+                    "id": 449,
+                    "name": "ExpressionStatement",
+                    "src": "108:8:4"
+                  }
+                ],
+                "id": 450,
+                "name": "Block",
+                "src": "100:22:4"
+              }
+            ],
+            "id": 451,
+            "name": "FunctionDefinition",
+            "src": "69:53:4"
+          }
+        ],
+        "id": 452,
+        "name": "ContractDefinition",
+        "src": "26:99:4"
+      }
+    ],
+    "id": 453,
+    "name": "SourceUnit",
+    "src": "0:126:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-19T15:48:55.181Z"
+}
