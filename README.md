@@ -1,1 +1,1 @@
-# FoodimusCrowdsale
+# BRIcrowdsale
